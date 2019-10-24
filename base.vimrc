@@ -38,4 +38,4 @@ au FocusGained,BufEnter * :checktime
 " Save on Focus Lost
 :au FocusLost * :wa
 " 
-
+let $FZF_DEFAULT_COMMAND='rg --hidden -l ""'

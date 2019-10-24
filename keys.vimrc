@@ -28,6 +28,10 @@ nmap <S-j> :m+1<cr>
 nmap <S-k> :m-2<cr>
 "
 
+"VISTA CONFIG
+nmap <Leader>l :Vista!!<cr> 
+"
+
 " + Open NerdTree
 nmap <Tab> :NERDTreeToggle<cr>
 nmap <c-a> :NERDTreeFind<cr>

@@ -20,6 +20,7 @@ call plug#begin()
   Plug 'Xuyuanp/nerdtree-git-plugin'
   Plug 'w0rp/ale'
   Plug 'ap/vim-css-color'
+  Plug 'liuchengxu/vista.vim'
 
   Plug 'Yggdroot/indentLine'
   Plug 'kopischke/vim-fetch'
@@ -43,6 +44,7 @@ call plug#begin()
   Plug 'neoclide/coc-vetur', {'do': 'yarn install --frozen-lockfile'} " 
 
   " Themes
+  Plug 'rakr/vim-one'
   Plug 'flazz/vim-colorschemes'
   Plug 'xolox/vim-misc'
   Plug 'xolox/vim-colorscheme-switcher'
