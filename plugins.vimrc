@@ -20,6 +20,13 @@ call plug#begin()
   Plug 'ap/vim-css-color'
   Plug 'liuchengxu/vista.vim'
 
+  Plug 'garbas/vim-snipmate'
+  Plug 'MarcWeber/vim-addon-mw-utils'
+  Plug 'tomtom/tlib_vim'
+
+
+
+
   Plug 'thaerkh/vim-indentguides'
   Plug 'kopischke/vim-fetch'
 
