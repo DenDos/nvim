@@ -30,6 +30,7 @@ set re=1
 set nofoldenable
 set shell=/usr/local/bin/fish
 set mouse=a
+set list listchars=tab:»-,trail:·,extends:»,precedes:«
 
 " Reload File on remote changes
 set autoread

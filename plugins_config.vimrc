@@ -12,8 +12,8 @@ let g:airline_theme='violet'
 " Airline Temes
 
 " IndentConfig
-" let g:indentLine_char_list = ['|', '¦', '┆', '┊']
-let g:indentLine_color_term = 239
+let g:indentguides_spacechar = '¦'
+let g:indentguides_tabchar = '|'
 
 let g:ale_sign_error = '🚩'
 let g:ale_sign_warning = '⚡'

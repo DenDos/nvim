@@ -1,10 +1,8 @@
 call plug#begin()
 
   " Vim eco-system:
-  " Plug 'ctrlpvim/ctrlp.vim'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
-  " Plug 'eugen0329/vim-esearch'
   Plug 'scrooloose/nerdtree'
   Plug 'airblade/vim-rooter'
 
@@ -13,16 +11,16 @@ call plug#begin()
   Plug 'junegunn/fzf.vim'
 
   " Utils for development
+  Plug 'scrooloose/nerdcommenter'
   Plug 'tpope/vim-surround'
   Plug 'airblade/vim-gitgutter'
   Plug 'tpope/vim-fugitive'
-  Plug 'scrooloose/nerdcommenter'
   Plug 'Xuyuanp/nerdtree-git-plugin'
   Plug 'w0rp/ale'
   Plug 'ap/vim-css-color'
   Plug 'liuchengxu/vista.vim'
 
-  Plug 'Yggdroot/indentLine'
+  Plug 'thaerkh/vim-indentguides'
   Plug 'kopischke/vim-fetch'
 
   " Syntax plugins
@@ -44,7 +42,6 @@ call plug#begin()
   Plug 'neoclide/coc-vetur', {'do': 'yarn install --frozen-lockfile'} " 
 
   " Themes
-  Plug 'rakr/vim-one'
   Plug 'flazz/vim-colorschemes'
   Plug 'xolox/vim-misc'
   Plug 'xolox/vim-colorscheme-switcher'
