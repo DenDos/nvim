@@ -19,13 +19,15 @@ let g:ale_sign_error = '🚩'
 let g:ale_sign_warning = '⚡'
 let g:ale_lint_on_enter = 1
 let g:ale_lint_on_save = 1
+let g:ale_linters = {
+      \   'ruby': ['standardrb', 'rubocop'],
+      \   'javascript': ['eslint'],
+      \}
 
 let g:NERDSpaceDelims = 1
 let g:NERDCustomDelimiters = { 'javascript.jsx': { 'left': '//', 'leftAlt': '{/*', 'rightAlt': '*/}' } }
 let g:NERDTreeChDirMode       = 2
 let NERDTreeShowHidden=1
-
-let g:vista_default_executive = 'coc'
 
 colorscheme CandyPaper " Matriz aka
 " colorscheme chlordane " Matriz aka
