@@ -18,7 +18,6 @@ call plug#begin()
   Plug 'Xuyuanp/nerdtree-git-plugin'
   Plug 'w0rp/ale'
   Plug 'ap/vim-css-color'
-  Plug 'liuchengxu/vista.vim'
 
   Plug 'garbas/vim-snipmate'
   Plug 'MarcWeber/vim-addon-mw-utils'
