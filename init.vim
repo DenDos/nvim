@@ -10,5 +10,5 @@ endif
 let mapleader = "\<Space>"
 
 " Reload .init.vim shortcut
-command! ReloadInitVim so /Users/cotoha/.config/nvim/init.vim
+command! ReloadInitVim so $HOME/.config/nvim/init.vim
 "

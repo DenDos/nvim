@@ -1,3 +1,3 @@
 # nvim
 
-brew install pg
+brew install rg

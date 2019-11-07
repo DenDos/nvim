@@ -23,9 +23,6 @@ call plug#begin()
   Plug 'MarcWeber/vim-addon-mw-utils'
   Plug 'tomtom/tlib_vim'
 
-
-
-
   Plug 'thaerkh/vim-indentguides'
   Plug 'kopischke/vim-fetch'
 

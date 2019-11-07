@@ -1,13 +1,13 @@
 imap jk <Esc>
 
 " + Fast buffer switchers
-nmap <c-j> <c-w>j
-nmap <c-k> <c-w>k
-nmap <c-h> <c-w>h
-nmap <c-l> <c-w>l
+" nmap <c-j> <c-w>j
+" nmap <c-k> <c-w>k
+" nmap <c-h> <c-w>h
+" nmap <c-l> <c-w>l
 " - Fast buffer switchers
 
-"Switching wetween buffers
+"Switching between buffers
 nnoremap <silent> <leader>b :Buffers<CR>
 "
 
