@@ -18,6 +18,7 @@ call plug#begin()
   Plug 'Xuyuanp/nerdtree-git-plugin'
   Plug 'w0rp/ale'
   Plug 'ap/vim-css-color'
+  Plug 'https://gitlab.com/code-stats/code-stats-vim.git'
 
   Plug 'garbas/vim-snipmate'
   Plug 'MarcWeber/vim-addon-mw-utils'

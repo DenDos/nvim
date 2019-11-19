@@ -29,6 +29,10 @@ let g:NERDCustomDelimiters = { 'javascript.jsx': { 'left': '//', 'leftAlt': '{/*
 let g:NERDTreeChDirMode       = 2
 let NERDTreeShowHidden=1
 
+" REQUIRED: CodeStats API key
+let g:codestats_api_key = 'SFMyNTY.UkdWdVJHOXojI01UVTFOUT09.dRI-i6XX35Xgt59_FZtsX5cxd9-L5CCePm0DgoZEQWg'
+let g:airline_section_x = airline#section#create_right(['tagbar', 'filetype', '%{CodeStatsXp()}'])
+
 colorscheme CandyPaper " Matriz aka
 " colorscheme baycomb " White
 "
