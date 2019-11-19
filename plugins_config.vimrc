@@ -30,6 +30,8 @@ let g:NERDTreeChDirMode       = 2
 let NERDTreeShowHidden=1
 
 colorscheme CandyPaper " Matriz aka
+" colorscheme baycomb " White
+"
 " colorscheme chlordane " Matriz aka
 " colorscheme chance-of-storm "For cuberpunk
 " colorscheme black_angus "For cuberpunk
