@@ -35,6 +35,7 @@ call plug#begin()
   Plug 'pangloss/vim-javascript'
   Plug 'mxw/vim-jsx'
   Plug 'posva/vim-vue'
+  Plug 'dag/vim-fish'
 
   Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': { -> coc#util#install()}}
   Plug 'neoclide/coc-prettier', {'do': 'yarn install --frozen-lockfile'}
