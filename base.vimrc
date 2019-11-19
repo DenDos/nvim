@@ -31,6 +31,7 @@ set nofoldenable
 set shell=/usr/local/bin/fish
 set mouse=a
 set list listchars=tab:»-,trail:·,extends:»,precedes:«
+set ignorecase
 
 " Reload File on remote changes
 set autoread
