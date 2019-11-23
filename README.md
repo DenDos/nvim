@@ -1,5 +1,12 @@
 # nvim
 
-brew install rg # for fzf and global searching
+For fzf and global searching
 
-gem install solargraph # for COC
+```ruby
+brew install rg
+```
+
+for COC
+```ruby
+gem install solargraph 
+```
