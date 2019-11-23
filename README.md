@@ -6,7 +6,7 @@ For fzf and global searching
 brew install rg
 ```
 
-for COC
+for [`COC`](https://github.com/neoclide/coc.nvim)
 ```ruby
 gem install solargraph 
 ```
