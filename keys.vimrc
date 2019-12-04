@@ -1,19 +1,12 @@
 imap jk <Esc>
 
-" + Fast buffer switchers
-" nmap <c-j> <c-w>j
-" nmap <c-k> <c-w>k
-" nmap <c-h> <c-w>h
-" nmap <c-l> <c-w>l
-" - Fast buffer switchers
-
 "Switching between buffers
 nnoremap <silent> <leader>b :Buffers<CR>
 "
 
 " + Buffers switch
-nnoremap <Leader>[ :bprevious<cr>
 nnoremap <Leader>] :bnext<cr>
+nnoremap <Leader>[ :bprevious<cr>
 " - Buffers switch
 
 " + Terminal: exit from insert mode and switch tab
@@ -34,8 +27,8 @@ nmap <c-a> :NERDTreeFind<cr>
 " - Open NerdTree
 
 " + ColorTheme Switch
-" nnoremap <Leader>p :NextColorScheme<cr>
-" nnoremap <Leader>o :PrevColorScheme<cr>
+nnoremap <Leader>p :NextColorScheme<cr>
+nnoremap <Leader>o :PrevColorScheme<cr>
 " - ColorTheme Switch
 
 " + Search by word within visual selection
@@ -50,4 +43,3 @@ nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
-

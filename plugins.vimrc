@@ -18,15 +18,13 @@ call plug#begin()
   Plug 'Xuyuanp/nerdtree-git-plugin'
   Plug 'w0rp/ale'
   Plug 'ap/vim-css-color'
-  " Plug 'https://gitlab.com/code-stats/code-stats-vim.git'
+  Plug 'mattn/emmet-vim'
 
   Plug 'garbas/vim-snipmate'
   Plug 'MarcWeber/vim-addon-mw-utils'
   Plug 'tomtom/tlib_vim'
 
   Plug 'thaerkh/vim-indentguides'
-  Plug 'kopischke/vim-fetch'
-
   " Syntax plugins
   Plug 'elzr/vim-json'
   Plug 'plasticboy/vim-markdown'
@@ -37,6 +35,9 @@ call plug#begin()
   Plug 'mxw/vim-jsx'
   Plug 'posva/vim-vue'
   Plug 'dag/vim-fish'
+  Plug 'leafgarland/typescript-vim'
+  Plug 'peitalin/vim-jsx-typescript'
+  Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
   Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': { -> coc#util#install()}}
   Plug 'neoclide/coc-prettier', {'do': 'yarn install --frozen-lockfile'}

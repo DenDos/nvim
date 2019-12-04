@@ -15,6 +15,7 @@ let g:airline_theme='violet'
 let g:indentguides_spacechar = '¦'
 let g:indentguides_tabchar = '|'
 
+" Linter
 let g:ale_sign_error = '🚩'
 let g:ale_sign_warning = '⚡'
 let g:ale_lint_on_enter = 1
@@ -23,23 +24,17 @@ let g:ale_linters = {
       \   'ruby': ['standardrb', 'rubocop'],
       \   'javascript': ['eslint'],
       \}
+" Linter END
 
 let g:NERDSpaceDelims = 1
 let g:NERDCustomDelimiters = { 'javascript.jsx': { 'left': '//', 'leftAlt': '{/*', 'rightAlt': '*/}' } }
 let g:NERDTreeChDirMode       = 2
 let NERDTreeShowHidden=1
 
-" REQUIRED: CodeStats API key
-" let g:codestats_api_key = 'SFMyNTY.UkdWdVJHOXojI01UVTFOUT09.dRI-i6XX35Xgt59_FZtsX5cxd9-L5CCePm0DgoZEQWg'
-" let g:airline_section_x = airline#section#create_right(['tagbar', 'filetype', '%{CodeStatsXp()}'])
-
-colorscheme CandyPaper " Matriz aka
-" colorscheme baycomb " White
-"
-" colorscheme chlordane " Matriz aka
-" colorscheme chance-of-storm "For cuberpunk
-" colorscheme black_angus "For cuberpunk
-" colorscheme cabin "For cuberpunk
-" colorscheme zazen " Gray
-" colorscheme 256_noir " Gray noir
+let g:user_emmet_leader_key='<c-e>'
+let g:user_emmet_settings = {
+\  'javascript' : {
+\      'extends' : 'jsx',
+\  },
+\}
 
