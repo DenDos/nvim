@@ -4,6 +4,8 @@ imap jk <Esc>
 nnoremap <silent> <leader>b :Buffers<CR>
 "
 
+nmap <leader>d <Plug>(ale_fix)
+
 " + Buffers switch
 nnoremap <Leader>] :bnext<cr>
 nnoremap <Leader>[ :bprevious<cr>
@@ -27,8 +29,8 @@ nmap <c-a> :NERDTreeFind<cr>
 " - Open NerdTree
 
 " + ColorTheme Switch
-nnoremap <Leader>p :NextColorScheme<cr>
-nnoremap <Leader>o :PrevColorScheme<cr>
+" nnoremap <Leader>p :NextColorScheme<cr>
+" nnoremap <Leader>o :PrevColorScheme<cr>
 " - ColorTheme Switch
 
 " + Search by word within visual selection

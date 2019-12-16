@@ -41,6 +41,7 @@ hi String guifg=#98C379 guibg=#2a2e34
 hi jsParens guifg=#56B6C2
 hi jsObjectBraces guifg=#b689bc
 hi jsFuncBraces guifg=#56B6C2
-hi jsObjectFuncName guifg=#D19A66
+" hi jsObjectFuncName guifg=#D19A66
+" hi jsObjectFuncName guifg=#D19A66
 hi jsObjectKey guifg=#b689bc
 hi jsObjectKey guifg=#72ac33
