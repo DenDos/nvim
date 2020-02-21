@@ -11,6 +11,8 @@ let g:airline_powerline_fonts = 1
 let g:airline_theme='violet'
 " Airline Temes
 
+let g:vue_pre_processors = ['pug', 'scss']
+
 " IndentConfig
 let g:indentguides_spacechar = '¦'
 let g:indentguides_tabchar = '|'
@@ -28,14 +30,15 @@ let g:ale_lint_on_save = 1
 let g:ale_linters = {
       \   'ruby': ['standardrb', 'rubocop'],
       \   'javascript': ['eslint'],
+      \   'vue': ['eslint','prettier'],
       \}
 
 let g:ale_fixers = {
 \   'typescript': ['eslint'],
 \   'javascript': ['eslint'],
 \   'css': ['prettier'],
-\   'ruby': ['rubocop'],
-\   'vue': ['eslint', 'prettier'],
+\   'ruby': ['standardrb', 'rubocop'],
+\   'vue': ['eslint','prettier'],
 \}
 " Linter END
 

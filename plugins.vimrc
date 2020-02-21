@@ -25,10 +25,12 @@ call plug#begin()
   Plug 'tomtom/tlib_vim'
 
   Plug 'thaerkh/vim-indentguides'
+
   " Syntax plugins
   Plug 'elzr/vim-json'
   Plug 'plasticboy/vim-markdown'
   Plug 'elixir-lang/vim-elixir'
+  Plug 'kchmck/vim-coffee-script'
   Plug 'vim-ruby/vim-ruby'
   Plug 'tpope/vim-rails'
   Plug 'pangloss/vim-javascript'
