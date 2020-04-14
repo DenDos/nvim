@@ -1,6 +1,5 @@
 " Reload .init.vim shortcut
 command! ReloadInitVim so $HOME/.config/nvim/init.vim
-"
 
 let g:ft = ''
 function! NERDCommenter_before()
@@ -21,3 +20,9 @@ function! NERDCommenter_after()
     let g:ft = ''
   endif
 endfunction
+
+
+command! -bang -nargs=* Rg
+  \ call fzf#vim#grep(
+  \   'rg --column --line-number --no-heading --color=always --smart-case '.shellescape(<q-args>), 1,
+  \   fzf#vim#with_preview({'options': '--delimiter : --nth 4..'}), <bang>0)
