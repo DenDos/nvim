@@ -28,6 +28,7 @@ call plug#begin()
 
   " Syntax plugins
   Plug 'elzr/vim-json'
+  Plug 'jparise/vim-graphql'
   Plug 'plasticboy/vim-markdown'
   Plug 'elixir-lang/vim-elixir'
   Plug 'kchmck/vim-coffee-script'
