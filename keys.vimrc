@@ -16,6 +16,9 @@ tnoremap <Leader>[ <C-\><C-n>:bprevious<cr>
 tnoremap <Leader>] <C-\><C-n>:bnext<cr>
 " - Terminal: exit from insert mode and switch tab
 
+nnoremap <silent> TT :FloatermToggle<CR>
+tnoremap <silent> TT <C-\><C-n>:FloatermToggle<CR>
+
 "Mooving lines Up/Down
 vnoremap <S-j> :m '>+1<CR>gv=gv
 vnoremap <S-k> :m '<-2<CR>gv=gv

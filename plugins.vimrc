@@ -19,6 +19,7 @@ call plug#begin()
   Plug 'w0rp/ale'
   Plug 'ap/vim-css-color'
   Plug 'mattn/emmet-vim'
+  Plug 'voldikss/vim-floaterm'
 
   Plug 'garbas/vim-snipmate'
   Plug 'MarcWeber/vim-addon-mw-utils'
