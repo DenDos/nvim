@@ -1,3 +1,4 @@
 {
   "coc.preferences.diagnostic.enable": false,
+  "diagnostic.refreshOnInsertMode": true
 }
