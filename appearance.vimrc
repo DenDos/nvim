@@ -12,6 +12,12 @@ colorscheme CandyPaper " Matriz aka
 
 
 """"""""""""" Color Schemes """"""""""""""""
+" Set floaterm window's background to black
+" hi Floaterm guibg=black
+" Set floating window border line color
+hi FloatermBorder guifg=#ba9ef7
+
+
 hi Comment cterm=italic guifg=#4a5158
 hi String guifg=#98C379 guibg=#2a2e34
 
@@ -35,7 +41,6 @@ hi String guifg=#98C379 guibg=#2a2e34
 " " medium red: if else operators
 " hi Preproc guifg=#e86868
 " hi Type guifg=#e86868
-
 
 " " javascript
 hi jsParens guifg=#56B6C2

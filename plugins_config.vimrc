@@ -47,6 +47,20 @@ let g:NERDTreeChDirMode       = 2
 let NERDTreeShowHidden=1
 " NERD END
 
+let g:fzf_layout = { 'down': '~60%' }
+let g:fzf_colors =
+\ { 'fg':      ['fg', 'Normal'],
+  \ 'bg':      ['bg', 'Normal'],
+  \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+  \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+  \ 'hl+':     ['fg', 'Statement'],
+  \ 'border':  ['fg', 'Ignore'],
+  \ 'prompt':  ['fg', 'Conditional'],
+  \ 'pointer': ['fg', 'Exception'],
+  \ 'marker':  ['fg', 'Keyword'],
+  \ 'spinner': ['fg', 'Label'],
+  \ 'header':  ['fg', 'Comment'] }
+
 " let g:user_emmet_settings = webapi#json#decode(join(readfile(expand('./snippets/emmet.json')), "\n"))
 let g:user_emmet_leader_key='<c-e>'
 let g:user_emmet_settings = {
