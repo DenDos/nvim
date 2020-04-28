@@ -9,6 +9,7 @@ set termencoding=utf-8
 set undofile
 set undodir=~/.config/nvim/undodir
 
+set encoding=UTF-8
 set clipboard=unnamed
 set modifiable
 set backupcopy=yes

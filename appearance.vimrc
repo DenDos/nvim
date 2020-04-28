@@ -1,5 +1,6 @@
 " Dark Themes
 colorscheme CandyPaper " Matriz aka
+" colorscheme ansi_blows
 " colorscheme chlordane " Matriz aka
 " colorscheme clarity " Matriz aka
 " colorscheme colorsbox-material " Matriz aka

@@ -18,6 +18,7 @@ let g:indentguides_tabchar = '|'
 let g:coc_global_extensions = ['coc-json', 'coc-tsserver', 'coc-solargraph']
 
 " Linter
+" let g:lsc_auto_map = v:true
 " Set this. Airline will handle the rest.
 let g:airline#extensions#ale#enabled = 1
 let g:ale_sign_error = '💩'
@@ -45,6 +46,8 @@ let g:NERDSpaceDelims = 1
 let g:NERDCustomDelimiters = { 'javascript.jsx': { 'left': '//', 'leftAlt': '{/*', 'rightAlt': '*/}' } }
 let g:NERDTreeChDirMode       = 2
 let NERDTreeShowHidden=1
+let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match
+let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder name
 " NERD END
 
 let g:fzf_layout = { 'down': '~60%' }

@@ -21,6 +21,9 @@ call plug#begin()
   Plug 'mattn/emmet-vim'
   Plug 'voldikss/vim-floaterm'
 
+  Plug 'natebosch/vim-lsc'
+  Plug 'natebosch/vim-lsc-dart'
+
   Plug 'garbas/vim-snipmate'
   Plug 'MarcWeber/vim-addon-mw-utils'
   Plug 'tomtom/tlib_vim'
@@ -39,6 +42,7 @@ call plug#begin()
   Plug 'mxw/vim-jsx'
   Plug 'posva/vim-vue'
   Plug 'dag/vim-fish'
+  Plug 'dart-lang/dart-vim-plugin'
   Plug 'leafgarland/typescript-vim'
   Plug 'peitalin/vim-jsx-typescript'
   Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
@@ -55,8 +59,7 @@ call plug#begin()
   Plug 'flazz/vim-colorschemes'
   Plug 'xolox/vim-misc'
   Plug 'xolox/vim-colorscheme-switcher'
-  Plug 'ryanoasis/vim-devicons'
   Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-  
+  Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
