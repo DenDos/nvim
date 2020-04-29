@@ -18,6 +18,10 @@ colorscheme CandyPaper " Matriz aka
 " Set floating window border line color
 hi FloatermBorder guifg=#ba9ef7
 
+"Coc
+hi! CocErrorSign guifg=#d1666a
+hi! CocWarningSign guifg=#E5C07B
+"Coc End
 
 hi Comment cterm=italic guifg=#4a5158
 hi String guifg=#98C379 guibg=#2a2e34
