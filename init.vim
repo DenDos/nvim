@@ -9,4 +9,5 @@ if &compatible
   set nocompatible               " Be iMproved
 endif
 
+
 let mapleader = "\<Space>"

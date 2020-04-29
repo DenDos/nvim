@@ -15,6 +15,12 @@ nnoremap <Leader>] :bnext<cr>
 nnoremap <Leader>[ :bprevious<cr>
 " - Buffers switch
 
+" Plugin key-mappings.
+" Note: It must be "imap" and "smap".  It uses <Plug> mappings.
+imap <C-s>     <Plug>(neosnippet_expand_or_jump)
+smap <C-s>     <Plug>(neosnippet_expand_or_jump)
+xmap <C-s>     <Plug>(neosnippet_expand_target)
+
 " + Terminal: exit from insert mode and switch tab
 tnoremap <Leader>[ <C-\><C-n>:bprevious<cr>
 tnoremap <Leader>] <C-\><C-n>:bnext<cr>
