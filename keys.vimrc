@@ -48,12 +48,17 @@ nmap <C-p> :Files<CR>
 nmap <C-b> :Buffers<CR>
 nmap <leader>ff :Rg<CR>
 
+" COC
 " Use <c-space> to trigger completion.
 inoremap <silent><expr> <c-space> coc#refresh()
+
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
+
+nmap <leader>clf :<C-u>CocList --input=flutter commands<cr>
+nmap <leader>a :<C-u>CocAction<cr>
 
 " Use L to show documentation in preview window.
 nnoremap <silent> L :call <SID>show_documentation()<CR>
@@ -64,3 +69,4 @@ function! s:show_documentation()
     call CocAction('doHover')
   endif
 endfunction
+"" COC END
