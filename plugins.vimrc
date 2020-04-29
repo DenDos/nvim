@@ -21,10 +21,10 @@ call plug#begin()
   Plug 'mattn/emmet-vim'
   Plug 'voldikss/vim-floaterm'
 
-  Plug 'natebosch/vim-lsc'
-  Plug 'natebosch/vim-lsc-dart'
+  " Plug 'garbas/vim-snipmate'
+  Plug 'Shougo/neosnippet.vim'
+  Plug 'Shougo/neosnippet-snippets'
 
-  Plug 'garbas/vim-snipmate'
   Plug 'MarcWeber/vim-addon-mw-utils'
   Plug 'tomtom/tlib_vim'
 
@@ -60,6 +60,6 @@ call plug#begin()
   Plug 'xolox/vim-misc'
   Plug 'xolox/vim-colorscheme-switcher'
   Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-  Plug 'ryanoasis/vim-devicons'
+  Plug 'ryanoasis/vim-devicons', {'commit': ''}
 call plug#end()
 

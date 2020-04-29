@@ -8,6 +8,12 @@ let g:airline#extensions#ale#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline_theme='violet'
 " Airline Temes
+"
+" Enable snipMate compatibility feature.
+
+let g:neosnippet#enable_snipmate_compatibility = 1
+" Tell Neosnippet about the other snippets
+let g:neosnippet#snippets_directory='./snippets'
 
 let g:vue_pre_processors = ['pug', 'scss']
 
@@ -15,22 +21,22 @@ let g:vue_pre_processors = ['pug', 'scss']
 let g:indentguides_spacechar = '¦'
 let g:indentguides_tabchar = '|'
 
-let g:coc_global_extensions = ['coc-json', 'coc-tsserver', 'coc-solargraph']
-
 " Linter
 " let g:lsc_auto_map = v:true
 " Set this. Airline will handle the rest.
 let g:airline#extensions#ale#enabled = 1
 let g:ale_sign_error = '💩'
-let g:ale_sign_warning = '🤢'
+let g:ale_sign_warning = '🦠'
+let g:ale_sign_info = '🌝'
 let g:ale_lint_on_enter = 1
 let g:ale_lint_on_save = 1
 let g:ale_completion_tsserver_autoimport = 1
 let g:ale_linters = {
-      \   'ruby': ['standardrb', 'rubocop'],
-      \   'javascript': ['eslint','prettier'],
-      \   'vue': ['eslint','prettier'],
-      \}
+\   'ruby': ['standardrb', 'rubocop'],
+\   'javascript': ['eslint','prettier'],
+\   'vue': ['eslint','prettier'],
+\   'dart': ['dartfmt'],
+\}
 
 let g:ale_fixers = {
 \   'typescript': ['eslint'],
@@ -38,18 +44,22 @@ let g:ale_fixers = {
 \   'css': ['prettier'],
 \   'ruby': ['standardrb', 'rubocop'],
 \   'vue': ['eslint','prettier'],
+\   'dart': ['dartfmt'],
 \}
 " Linter END
 
 " NERD
 let g:NERDSpaceDelims = 1
-let g:NERDCustomDelimiters = { 'javascript.jsx': { 'left': '//', 'leftAlt': '{/*', 'rightAlt': '*/}' } }
-let g:NERDTreeChDirMode       = 2
-let NERDTreeShowHidden=1
-let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match
-let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder name
+let g:NERDCustomDelimiters = {
+    \ 'javascript.jsx': {
+    \ 'left': '//', 'leftAlt': '{/*', 'rightAlt': '*/}' 
+    \}
+  \}
+let g:NERDTreeChDirMode = 2
+let NERDTreeShowHidden = 1
 " NERD END
 
+" FZF
 let g:fzf_layout = { 'down': '~60%' }
 let g:fzf_colors =
 \ { 'fg':      ['fg', 'Normal'],
@@ -63,8 +73,8 @@ let g:fzf_colors =
   \ 'marker':  ['fg', 'Keyword'],
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
+" FZF END
 
-" let g:user_emmet_settings = webapi#json#decode(join(readfile(expand('./snippets/emmet.json')), "\n"))
 let g:user_emmet_leader_key='<c-e>'
 let g:user_emmet_settings = {
 \  'javascript' : {
