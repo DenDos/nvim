@@ -4,5 +4,5 @@
   "diagnostic.warningSign": "🦠",
   "diagnostic.infoSign": "🌼",
   "flutter.lsp.initialization.closingLabels": true,
-  "javascript.suggestionActions.enabled": false
+  "javascript.suggestionActions.enabled": false,
 }

@@ -19,9 +19,19 @@ colorscheme CandyPaper " Matriz aka
 hi FloatermBorder guifg=#ba9ef7
 
 "Coc
+" hi Pmenu guibg=#4a5158 ctermbg=8
+" hi CocFloating ctermbg=8 guibg=#4a5158
+hi CocFloating ctermbg=8 guibg=#34363f
+" hi CocFloating ctermbg=NONE
+
+
 hi! CocErrorSign guifg=#d1666a
-hi! CocWarningSign guifg=#E5C07B
+hi! CocWarningSign guifg=#D19A66
+hi! CocInfoSign guifg=#98C379
 "Coc End
+"
+highlight clear ALEErrorSign
+highlight clear ALEWarningSign
 
 hi Comment cterm=italic guifg=#4a5158
 hi String guifg=#98C379 guibg=#2a2e34
