@@ -6,9 +6,8 @@ let g:airline#extensions#branch#empty_message = 'No branch!'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#ale#enabled = 1
 let g:airline_powerline_fonts = 1
-let g:airline_theme='violet'
-" Airline Temes
-"
+" let g:airline_theme='silver' " MOVED TO ./appearance.vimrc
+
 " Enable snipMate compatibility feature.
 
 let g:neosnippet#enable_snipmate_compatibility = 1

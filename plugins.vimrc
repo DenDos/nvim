@@ -61,5 +61,6 @@ call plug#begin()
   Plug 'xolox/vim-colorscheme-switcher'
   Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
   Plug 'ryanoasis/vim-devicons', {'commit': ''}
+  Plug 'yasukotelin/shirotelin'
 call plug#end()
 
