@@ -9,5 +9,8 @@ if &compatible
   set nocompatible               " Be iMproved
 endif
 
+if has("nvim")
+  set termguicolors
+endif
 
 let mapleader = "\<Space>"

@@ -20,8 +20,8 @@ call plug#begin()
   Plug 'ap/vim-css-color'
   Plug 'mattn/emmet-vim'
   Plug 'voldikss/vim-floaterm'
+  Plug 'yuttie/comfortable-motion.vim'
 
-  " Plug 'garbas/vim-snipmate'
   Plug 'Shougo/neosnippet.vim'
   Plug 'Shougo/neosnippet-snippets'
 
@@ -46,6 +46,8 @@ call plug#begin()
   Plug 'leafgarland/typescript-vim'
   Plug 'peitalin/vim-jsx-typescript'
   Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+  Plug 'thosakwe/vim-flutter'
+
 
   Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': { -> coc#util#install()}}
   Plug 'neoclide/coc-prettier', {'do': 'yarn install --frozen-lockfile'}
@@ -57,6 +59,7 @@ call plug#begin()
 
   " Themes
   Plug 'flazz/vim-colorschemes'
+  Plug 'ayu-theme/ayu-vim'
   Plug 'xolox/vim-misc'
   Plug 'xolox/vim-colorscheme-switcher'
   Plug 'tiagofumo/vim-nerdtree-syntax-highlight'

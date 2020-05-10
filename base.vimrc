@@ -1,5 +1,4 @@
-" Required:
-
+" " Required:
 let mapleader = "\<Space>"
 
 filetype plugin indent on
@@ -25,12 +24,15 @@ set fillchars+=stl:\ ,stlnc:\
 set laststatus=2
 set lazyredraw
 set lz
+
 set colorcolumn=120
-set hid
+" set hid
+
 set re=1
 set nofoldenable
+
 set shell=/usr/local/bin/fish
-set updatetime=100
+set updatetime=300
 set mouse=a
 set list listchars=tab:»-,trail:·,extends:»,precedes:«
 set ignorecase

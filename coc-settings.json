@@ -1,8 +1,8 @@
 {
+  "tsserver.trace.server": "verbose",
   "diagnostic.refreshOnInsertMode": true,
   "diagnostic.errorSign": "💩",
   "diagnostic.warningSign": "🦠",
   "diagnostic.infoSign": "🌼",
-  "flutter.lsp.initialization.closingLabels": true,
-  "javascript.suggestionActions.enabled": false,
+  "javascript.suggestionActions.enabled": false
 }

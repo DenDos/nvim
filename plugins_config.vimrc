@@ -1,5 +1,4 @@
 " Airline Temes
-" Avaliable themes: 'wombat' 'solarized' 'molokai' 'tomorrow' 'base16'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#branch#empty_message = 'No branch!'
@@ -7,9 +6,9 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#ale#enabled = 1
 let g:airline_powerline_fonts = 1
 " let g:airline_theme='silver' " MOVED TO ./appearance.vimrc
+"
 
 " Enable snipMate compatibility feature.
-
 let g:neosnippet#enable_snipmate_compatibility = 1
 " Tell Neosnippet about the other snippets
 let g:neosnippet#snippets_directory='./snippets'
@@ -30,6 +29,7 @@ let g:ale_sign_info = '🌝'
 let g:ale_lint_on_enter = 1
 let g:ale_lint_on_save = 1
 let g:ale_completion_tsserver_autoimport = 1
+let g:ale_dart_dartfmt_executable = '/usr/local/bin/dartfmt'
 let g:ale_linters = {
 \   'ruby': ['standardrb', 'rubocop'],
 \   'javascript': ['eslint','prettier'],
