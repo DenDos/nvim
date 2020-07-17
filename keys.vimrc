@@ -10,6 +10,9 @@ noremap <silent> <C-S-Down> :resize +5<CR>
 
 nmap <leader>d <Plug>(ale_fix)
 
+nnoremap <silent> <C-d> :call comfortable_motion#flick(250)<CR>
+nnoremap <silent> <C-u> :call comfortable_motion#flick(-250)<CR>
+
 " + Buffers switch
 nnoremap <Leader>] :bnext<cr>
 nnoremap <Leader>[ :bprevious<cr>
@@ -17,13 +20,15 @@ nnoremap <Leader>[ :bprevious<cr>
 
 " Plugin key-mappings.
 " Note: It must be "imap" and "smap".  It uses <Plug> mappings.
-imap <C-s>     <Plug>(neosnippet_expand_or_jump)
-smap <C-s>     <Plug>(neosnippet_expand_or_jump)
-xmap <C-s>     <Plug>(neosnippet_expand_target)
+" imap <C-s>     <Plug>(neosnippet_expand_or_jump)
+" smap <C-s>     <Plug>(neosnippet_expand_or_jump)
+" xmap <C-s>     <Plug>(neosnippet_expand_target)
 
 " + Terminal: exit from insert mode and switch tab
 tnoremap <Leader>[ <C-\><C-n>:bprevious<cr>
 tnoremap <Leader>] <C-\><C-n>:bnext<cr>
+nnoremap <Leader>p <C-\><C-n>:bnext<cr>
+nnoremap <Leader>o <C-\><C-n>:bprevious<cr>
 " - Terminal: exit from insert mode and switch tab
 
 nnoremap <silent> TT :FloatermToggle<CR>
