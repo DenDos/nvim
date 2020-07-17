@@ -32,16 +32,17 @@ set re=1
 set nofoldenable
 
 set shell=/usr/local/bin/fish
-set updatetime=300
+set updatetime=100
 set mouse=a
 set list listchars=tab:»-,trail:·,extends:»,precedes:«
 set ignorecase
 
 " Reload File on remote changes
 set autoread
+set autowrite
+:au FocusLost * :wa
 au FocusGained,BufEnter * :checktime
 
 " Save on Focus Lost
-:au FocusLost * :wa
 " 
 let $FZF_DEFAULT_COMMAND='rg --hidden -l "" -g "!.git"'

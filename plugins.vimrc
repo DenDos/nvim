@@ -22,8 +22,11 @@ call plug#begin()
   Plug 'voldikss/vim-floaterm'
   Plug 'yuttie/comfortable-motion.vim'
 
-  Plug 'Shougo/neosnippet.vim'
-  Plug 'Shougo/neosnippet-snippets'
+  " Plug 'Shougo/neosnippet.vim'
+  " Plug 'Shougo/neosnippet-snippets'
+  Plug 'MarcWeber/vim-addon-mw-utils'
+  Plug 'tomtom/tlib_vim'
+  Plug 'garbas/vim-snipmate'
 
   Plug 'MarcWeber/vim-addon-mw-utils'
   Plug 'tomtom/tlib_vim'
@@ -52,7 +55,7 @@ call plug#begin()
   Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': { -> coc#util#install()}}
   Plug 'neoclide/coc-prettier', {'do': 'yarn install --frozen-lockfile'}
   Plug 'neoclide/coc-eslint', {'do': 'yarn install --frozen-lockfile'}
-  Plug 'neoclide/coc-tslint', {'do': 'yarn install --frozen-lockfile'}
+  " Plug 'neoclide/coc-tslint', {'do': 'yarn install --frozen-lockfile'}
   Plug 'neoclide/coc-css', {'do': 'yarn install --frozen-lockfile'}
   Plug 'neoclide/coc-lists', {'do': 'yarn install --frozen-lockfile'} " mru and stuff
   Plug 'neoclide/coc-vetur', {'do': 'yarn install --frozen-lockfile'} " 

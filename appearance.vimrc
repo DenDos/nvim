@@ -1,7 +1,7 @@
 if "Dark" == $ITERM_PROFILE
   " Dark Themes
   colorscheme CandyPaper " Matriz aka
-  colorscheme chlordane " Matriz aka
+  " colorscheme chlordane " Matriz aka
 
   hi VertSplit guibg=#ba9ef7 guifg=bg
 

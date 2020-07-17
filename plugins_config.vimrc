@@ -8,10 +8,16 @@ let g:airline_powerline_fonts = 1
 " let g:airline_theme='silver' " MOVED TO ./appearance.vimrc
 "
 
-" Enable snipMate compatibility feature.
-let g:neosnippet#enable_snipmate_compatibility = 1
-" Tell Neosnippet about the other snippets
-let g:neosnippet#snippets_directory='./snippets'
+let g:comfortable_motion_no_default_key_mappings = 1
+let g:comfortable_motion_friction = 700.0
+let g:comfortable_motion_air_drag = 5.0
+let g:comfortable_motion_scroll_down_key = "j"
+let g:comfortable_motion_scroll_up_key = "k"
+
+" " Enable snipMate compatibility feature.
+" let g:neosnippet#enable_snipmate_compatibility = 1
+" " Tell Neosnippet about the other snippets
+" let g:neosnippet#snippets_directory='./snippets'
 
 let g:vue_pre_processors = ['pug', 'scss']
 

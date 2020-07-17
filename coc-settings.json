@@ -4,5 +4,9 @@
   "diagnostic.errorSign": "💩",
   "diagnostic.warningSign": "🦠",
   "diagnostic.infoSign": "🌼",
-  "javascript.suggestionActions.enabled": false
+  "javascript.suggestionActions.enabled": false,
+  "typescript.suggestionActions.enabled": false,
+  "javascript.validate.enable": false,
+  "javascript.format.enabled": false,
+  "javascript.showUnused": false
 }
