@@ -52,7 +52,8 @@ call plug#begin()
   Plug 'thosakwe/vim-flutter'
 
 
-  Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': { -> coc#util#install()}}
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
   Plug 'neoclide/coc-prettier', {'do': 'yarn install --frozen-lockfile'}
   Plug 'neoclide/coc-eslint', {'do': 'yarn install --frozen-lockfile'}
   " Plug 'neoclide/coc-tslint', {'do': 'yarn install --frozen-lockfile'}
@@ -66,7 +67,7 @@ call plug#begin()
   Plug 'xolox/vim-misc'
   Plug 'xolox/vim-colorscheme-switcher'
   Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-  Plug 'ryanoasis/vim-devicons', {'commit': ''}
+  Plug 'ryanoasis/vim-devicons' 
   Plug 'yasukotelin/shirotelin'
 call plug#end()
 

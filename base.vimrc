@@ -8,6 +8,7 @@ set termencoding=utf-8
 set undofile
 set undodir=~/.config/nvim/undodir
 
+set noswapfile
 set encoding=UTF-8
 set clipboard=unnamed
 set modifiable
@@ -25,7 +26,7 @@ set laststatus=2
 set lazyredraw
 set lz
 
-set colorcolumn=120
+set colorcolumn=110
 " set hid
 
 set re=1

@@ -72,8 +72,10 @@ nmap <leader>clf :<C-u>CocList --input=flutter commands<cr>
 
 " Remap for do codeAction of selected region, ex: `<leader>aap` for current paragraph
 " nmap <leader>a :<C-u>CocAction<cr>
-xmap <leader>a  <Plug>(coc-codeaction)
-nmap <leader>a  <Plug>(coc-codeaction)
+xmap <leader>a <Plug>(coc-codeaction-selected)
+nmap <leader>a <Plug>(coc-codeaction-selected)
+" xmap <leader>a  <Plug>(coc-codeaction)
+" nmap <leader>a  <Plug>(coc-codeaction)
 
 " Use L to show documentation in preview window.
 nnoremap <silent> L :call <SID>show_documentation()<CR>

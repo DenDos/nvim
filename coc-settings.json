@@ -7,6 +7,5 @@
   "javascript.suggestionActions.enabled": false,
   "typescript.suggestionActions.enabled": false,
   "javascript.validate.enable": false,
-  "javascript.format.enabled": false,
-  "javascript.showUnused": false
+  "javascript.format.enabled": false
 }
