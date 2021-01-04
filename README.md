@@ -9,6 +9,7 @@ brew install rg
 for [`COC`](https://github.com/neoclide/coc.nvim)
 ```ruby
 :CocInstall coc-flutter
+:CocInstall coc-solargraph
 
 gem install solargraph 
 
