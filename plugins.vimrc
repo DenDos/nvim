@@ -54,6 +54,8 @@ call plug#begin()
 
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+  Plug 'neoclide/coc-tsserver'
+  Plug 'neoclide/coc-flutter'
   Plug 'neoclide/coc-prettier', {'do': 'yarn install --frozen-lockfile'}
   Plug 'neoclide/coc-eslint', {'do': 'yarn install --frozen-lockfile'}
   " Plug 'neoclide/coc-tslint', {'do': 'yarn install --frozen-lockfile'}
