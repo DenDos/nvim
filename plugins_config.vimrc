@@ -6,7 +6,14 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#ale#enabled = 1
 let g:airline_powerline_fonts = 1
 " let g:airline_theme='silver' " MOVED TO ./appearance.vimrc
-"
+
+" Preview window on the upper side of the window with 40% height,
+" hidden by default, ctrl-/ to toggle
+let g:fzf_preview_window = ['up:40%', 'ctrl-n']
+
+let g:rooter_patterns = ['=src']
+let g:rooter_resolve_links = 1
+let g:rooter_silent_chdir = 1
 
 let g:comfortable_motion_no_default_key_mappings = 1
 let g:comfortable_motion_friction = 700.0
@@ -28,6 +35,9 @@ let g:indentguides_tabchar = '|'
 " Linter
 " let g:lsc_auto_map = v:true
 " Set this. Airline will handle the rest.
+" " Only run linters named in ale_linters settings.
+let g:ale_sign_column_always = 1
+let g:ale_linters_explicit = 1
 let g:airline#extensions#ale#enabled = 1
 let g:ale_sign_error = '💩'
 let g:ale_sign_warning = '🦠'
