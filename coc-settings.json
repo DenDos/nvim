@@ -7,5 +7,20 @@
   "javascript.suggestionActions.enabled": false,
   "typescript.suggestionActions.enabled": false,
   "javascript.validate.enable": false,
-  "javascript.format.enabled": false
+  "javascript.format.enabled": false,
+  "dart.core.Sink": false,
+  "solargraph.diagnostics": true,
+  "solargraph.autoformat": true,
+  "solargraph.formatting": true,
+  "solargraph.hover": true,
+  "languageserver": {
+    "sorbet": {
+      "command": "/Users/cotoha/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/sorbet-static-0.5.6281-universal-darwin-20/libexec/sorbet",
+      "args": ["tc", "--lsp", "--enable-all-experimental-lsp-features", "--disable-watchman"],
+      "filetypes": ["ruby"],
+      "rootPatterns": ["sorbet/config"],
+      "initializationOptions": {},
+      "settings": {}
+    }
+  }
 }
