@@ -1,4 +1,4 @@
-call plug#begin()
+call plug#begin('$HOME/.config/nvim/plugged')
 
   " Vim eco-system:
   Plug 'vim-airline/vim-airline'
@@ -16,20 +16,16 @@ call plug#begin()
   Plug 'airblade/vim-gitgutter'
   Plug 'tpope/vim-fugitive'
   Plug 'Xuyuanp/nerdtree-git-plugin'
-  Plug 'w0rp/ale'
+  " Plug 'w0rp/ale'
+  Plug 'dense-analysis/ale'
   Plug 'ap/vim-css-color'
   Plug 'mattn/emmet-vim'
   Plug 'voldikss/vim-floaterm'
   Plug 'yuttie/comfortable-motion.vim'
 
-  " Plug 'Shougo/neosnippet.vim'
-  " Plug 'Shougo/neosnippet-snippets'
   Plug 'MarcWeber/vim-addon-mw-utils'
   Plug 'tomtom/tlib_vim'
   Plug 'garbas/vim-snipmate'
-
-  Plug 'MarcWeber/vim-addon-mw-utils'
-  Plug 'tomtom/tlib_vim'
 
   Plug 'thaerkh/vim-indentguides'
 
@@ -54,8 +50,9 @@ call plug#begin()
 
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+  Plug 'fannheyward/coc-sql'
   Plug 'neoclide/coc-tsserver'
-  Plug 'neoclide/coc-flutter'
+  " Plug 'neoclide/coc-flutter'
   Plug 'neoclide/coc-prettier', {'do': 'yarn install --frozen-lockfile'}
   Plug 'neoclide/coc-eslint', {'do': 'yarn install --frozen-lockfile'}
   " Plug 'neoclide/coc-tslint', {'do': 'yarn install --frozen-lockfile'}

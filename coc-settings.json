@@ -5,7 +5,7 @@
   "diagnostic.warningSign": "🦠",
   "diagnostic.infoSign": "🌼",
   "javascript.suggestionActions.enabled": false,
-  "typescript.suggestionActions.enabled": false,
+  "typescript.suggestionActions.enabled": true,
   "javascript.validate.enable": false,
   "javascript.format.enabled": false,
   "dart.core.Sink": false,
