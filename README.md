@@ -1,5 +1,10 @@
 # nvim
 
+
+```ruby
+brew install --HEAD neovim
+```
+
 For fzf and global searching
 
 ```ruby
