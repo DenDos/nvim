@@ -1,4 +1,11 @@
-if "Dark" == $ITERM_PROFILE
+if has('gui_running')
+  let theme = "Light"
+  let theme = "Dark"
+else
+  let theme = $ITERM_PROFILE
+endif
+
+if "Dark" == theme
   " Dark Themes
   colorscheme CandyPaper " Matriz aka
   " colorscheme chlordane " Matriz aka
@@ -26,6 +33,10 @@ else
   hi VertSplit guibg=bg guifg=#ba9ef7
 endif
 
+" if has('gui_running')
+  " set guifont=FiraCode\ Nerd\ Font:h17
+  " set macligatures
+" endif
 
 hi LineNr guibg=bg
 set foldcolumn=2
