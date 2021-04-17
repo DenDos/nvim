@@ -8,7 +8,8 @@ noremap <silent> <C-S-Right> :vertical resize -5<CR>
 noremap <silent> <C-S-Up> :resize -5<CR>
 noremap <silent> <C-S-Down> :resize +5<CR>
 
-nmap <leader>d <Plug>(ale_fix)
+" nmap <leader>d <Plug>(ale_fix)
+nmap <leader>d :call CocActionAsync('format') <CR>
 
 nnoremap <silent> <C-d> :call comfortable_motion#flick(250)<CR>
 nnoremap <silent> <C-u> :call comfortable_motion#flick(-250)<CR>
