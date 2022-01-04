@@ -51,6 +51,7 @@ let g:ale_linters = {
 \   'javascript': ['eslint','prettier'],
 \   'vue': ['eslint','prettier'],
 \   'dart': ['dartfmt'],
+\   'python': ['pylint', 'flake8', 'pylint']
 \}
 
 let g:ale_fixers = {
@@ -60,6 +61,7 @@ let g:ale_fixers = {
 \   'ruby': ['standardrb', 'rubocop'],
 \   'vue': ['eslint','prettier'],
 \   'dart': ['dartfmt'],
+\   'python': ['pylint', 'autopep8', 'yapf']
 \}
 " Linter END
 

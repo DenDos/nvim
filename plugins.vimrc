@@ -11,6 +11,7 @@ call plug#begin('$HOME/.config/nvim/plugged')
   Plug 'junegunn/fzf.vim'
 
   " Utils for development
+  " Plug 'codota/tabnine-vim'
   Plug 'scrooloose/nerdcommenter'
   Plug 'tpope/vim-surround'
   Plug 'airblade/vim-gitgutter'
@@ -30,6 +31,8 @@ call plug#begin('$HOME/.config/nvim/plugged')
   Plug 'thaerkh/vim-indentguides'
 
   " Syntax plugins
+  Plug 'prabirshrestha/vim-lsp'
+  Plug 'chr4/nginx.vim'
   Plug 'elzr/vim-json'
   Plug 'jparise/vim-graphql'
   Plug 'plasticboy/vim-markdown'
@@ -50,8 +53,12 @@ call plug#begin('$HOME/.config/nvim/plugged')
 
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+  Plug 'yaegassy/coc-nginx', {'do': 'yarn install --frozen-lockfile'}
+  Plug 'fannheyward/coc-pyright'
   Plug 'fannheyward/coc-sql'
+  Plug 'neoclide/coc-python'
   Plug 'neoclide/coc-tsserver'
+  Plug 'neoclide/coc-tabnine'
   " Plug 'neoclide/coc-flutter'
   Plug 'neoclide/coc-prettier', {'do': 'yarn install --frozen-lockfile'}
   Plug 'neoclide/coc-eslint', {'do': 'yarn install --frozen-lockfile'}
